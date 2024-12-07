@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css"/>
+  </head>
+  <body>
+    <div class="container mx-auto max-w-2xl mt-4">
+      <!-- You can make links to actions using the uri: namespace -->
+      <div class="text-sm"><a href="{uri:Todos.index}">Index</a></div>
+      <div class="text-xs"><a href="{uri:Todos.todos}">Todos</a></div>
+    </div>
+    <!-- This inserts the body of your templates -->
+    {#insert /}
+  </body>
+</html>
